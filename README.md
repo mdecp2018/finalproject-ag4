@@ -1,11 +1,3 @@
-40723108 https://mdecp2018.github.io/site-s40723108
+網址
 
-40723110 https://mdecp2018.github.io/site-s40723110
-
-40723111 https://mdecp2018.github.io/site-s40723111
-
-40723123 https://mdecp2018.github.io/site-s40723123
-
-40723125 https://mdecp2018.github.io/site-s40723125
-
-40723134 https://mdecp2018.github.io/site-s40723134
+https://mdecp2018.github.io/finalproject-ag4/content/%E7%B0%A1%E4%BB%8B.html
