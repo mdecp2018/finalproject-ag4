@@ -75,7 +75,7 @@ $(function(){
 
 </ul>
 </confmenu></header>
-<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><li><a href='點名.html'>點名</a><li><a href='PyQt.html'>PyQt</a><li><a href='Pyslvs.html'>Pyslvs</a><ul><li><a href='基本操作.html'>基本操作</a></li></ul><li><a href='Python 語法.html'>Python 語法</a><li><a href='參考資料.html'>參考資料</a><li><a href='電子書.html'>電子書</a></li></ul></nav><section>基本操作 << <a href='基本操作.html'>Previous</a> <a href='參考資料.html'>Next</a> >> 參考資料<br /><h1>Python 語法</h1>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><li><a href='點名.html'>點名</a><li><a href='PyQt.html'>PyQt</a><li><a href='Pyslvs.html'>Pyslvs</a><ul><li><a href='基本操作.html'>基本操作</a></li></ul><li><a href='Python 語法.html'>Python 語法</a></li></ul></nav><section>基本操作 << <a href='基本操作.html'>Previous</a> <br /><h1>Python 語法</h1>
 <p>Python 3 官方教材: <a href="https://docs.python.org/3/index.html">https://docs.python.org/3/index.html</a> </p>
 <p>Python tutorial: <a href="https://docs.python.org/3/tutorial/index.html">https://docs.python.org/3/tutorial/index.html</a> (英文)</p>
 <p>Python 教學: <a href="https://python-doc-tw.github.io/tutorial/index.html">https://python-doc-tw.github.io/tutorial/index.html</a> </p>
@@ -1016,62 +1016,5 @@ brython(1);
 }
 </script>
 <script type="text/python3">
-# 導入 doc
-from browser import document as doc
-from browser import html
-import math
-canvas = html.CANVAS(width = 300, height = 200)
-canvas.style = {"width": "100%"}
-canvas.id = "taiwan_flag"
-brython_div = doc["brython_div"]
-brython_div <= canvas
-
-# 準備繪圖畫布
-canvas = doc["taiwan_flag"]
-ctx = canvas.getContext("2d")
-# 進行座標轉換, x 軸不變, y 軸反向且移動 canvas.height 單位光點
-# ctx.setTransform(1, 0, 0, -1, 0, canvas.height)
-# 以下採用 canvas 原始座標繪圖
-flag_w = canvas.width
-flag_h = canvas.height
-circle_x = flag_w/4
-circle_y = flag_h/4
-# 先畫滿地紅
-ctx.fillStyle='rgb(255, 0, 0)'
-ctx.fillRect(0,0,flag_w,flag_h)
-# 再畫青天
-ctx.fillStyle='rgb(0, 0, 150)'
-ctx.fillRect(0,0,flag_w/2,flag_h/2)
-# 畫十二道光芒白日
-ctx.beginPath()
-star_radius = flag_w/8
-angle = 0
-for i in range(24):
-    angle += 5*math.pi*2/12
-    toX = circle_x + math.cos(angle)*star_radius
-    toY = circle_y + math.sin(angle)*star_radius
-    # 只有 i 為 0 時移動到 toX, toY, 其餘都進行 lineTo
-    if (i):
-        ctx.lineTo(toX, toY)
-    else:
-        ctx.moveTo(toX, toY)
-ctx.closePath()
-# 將填色設為白色
-ctx.fillStyle = '#fff'
-ctx.fill()
-# 白日:藍圈
-ctx.beginPath()
-ctx.arc(circle_x, circle_y, flag_w*17/240, 0, math.pi*2, True)
-ctx.closePath()
-# 填色設為藍色
-ctx.fillStyle = 'rgb(0, 0, 149)'
-ctx.fill()
-# 白日:白心
-ctx.beginPath()
-ctx.arc(circle_x, circle_y, flag_w/16, 0, math.pi*2, True)
-ctx.closePath()
-# 填色設為白色
-ctx.fillStyle = '#fff'
-ctx.fill()
 </script>
-</p><br />基本操作 << <a href='基本操作.html'>Previous</a> <a href='參考資料.html'>Next</a> >> 參考資料</section></div></body></html>
+</p><br />基本操作 << <a href='基本操作.html'>Previous</a> </section></div></body></html>
