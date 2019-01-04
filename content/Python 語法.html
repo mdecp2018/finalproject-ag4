@@ -1840,8 +1840,52 @@ doc["ball"].bind('click', Ball.prog)
 </script>
 </p>
 <!-- ball ends -->
-<p><button id="keyword">Keyword</button><button id="ex1">Ex1</button><button id="ex2">Ex2</button><button id="ex3">Ex3</button><button id="ex4">Ex4</button><button id="forloop">Ex5</button><button id="guess">Guess</button><button id="autoguess">Autoguess</button><button id="lottery">Lottery</button><button id="temp">Temp</button><button id="draw">Draw</button><button id="flag">Flag</button><button id="bezier">Bezier</button><button id="turtle1">Turtle1</button><button id="turtle2">Turtle2</button><button id="turtle3">Turtle3</button><button id="turtle4">Turtle4</button><button id="turtle5">Turtle5</button><button id="turtle6">Turtle6</button><button id="turtle7">Turtle7</button><button id="turtle8">Turtle8</button><button id="konva1">Konva1</button><button id="bunny">Bunny</button><button id="ball">Ball</button><button id="spur">Spur</button><button id="ycqsort">Ycqsort</button><button id="clear">Clear</button></p>
-<h4>參考資料:</h4>
-<p><a href="./../downloads/turtle_intro.pdf">turtle_intro.pdf</a></p>
-<p><a href="./../downloads/turtle_intro2.pdf">turtle_intro2.pdf</a></p>
-<p>其他擷取程式的方式: <a href="http://mde.tw/2017springvcp/blog/web-based-python.html">http://mde.tw/2017springvcp/blog/web-based-python.html</a></p><br />基本操作 << <a href='基本操作.html'>Previous</a> </section></div></body></html>
+<p></p>
+<!-- flag02 start -->
+<p>
+<script type="text/python3">
+from browser import document as doc
+import beditor
+flag02 = beditor.editor("""# flag02
+# 畫中德國國旗
+# 導入 doc
+from browser import document as doc
+from browser import html
+import math
+canvas = html.CANVAS(width = 300, height = 200)
+canvas.style = {"width": "100%"}
+canvas.id = "taiwan_flag"
+brython_div = doc["brython_div"]
+brython_div <= canvas
+
+# 準備繪圖畫布
+canvas = doc["taiwan_flag"]
+ctx = canvas.getContext("2d")
+# 進行座標轉換, x 軸不變, y 軸反向且移動 canvas.height 單位光點
+# ctx.setTransform(1, 0, 0, -1, 0, canvas.height)
+# 以下採用 canvas 原始座標繪圖
+flag_w = canvas.width
+flag_h = canvas.height
+circle_x = flag_w/4
+circle_y = flag_h/4
+# 先畫滿地紅
+ctx.fillStyle='rgb(255, 0, 0)'
+ctx.fillRect(0,0,flag_w,flag_h)
+# 先畫滿地黑
+ctx.fillStyle='rgb(0, 0, 0)'
+ctx.fillRect(0,0,flag_w,flag_h/3)
+# 先畫滿地黃
+ctx.fillStyle='rgb(255, 255, 0)'
+ctx.fillRect(0,135,flag_w,flag_h/3)
+
+
+
+""", "kw_editor", "kw_console", "kw__container", "kw_py_src")
+# id 為 "flag02" 的按鈕點按時, 執行 Ball 物件中的 prog 方法
+doc["flag02"].bind('click', flag02.prog)
+
+</script>
+</p>
+<!-- flag02 ends -->
+<p><button id="keyword">Keyword</button><button id="ex1">Ex1</button><button id="ex2">Ex2</button><button id="ex3">Ex3</button><button id="ex4">Ex4</button><button id="forloop">Ex5</button><button id="guess">Guess</button><button id="autoguess">Autoguess</button><button id="lottery">Lottery</button><button id="temp">Temp</button><button id="draw">Draw</button><button id="flag">Flag</button> <button id="flag02">flag02</button><button id="bezier">Bezier</button><button id="turtle1">Turtle1</button><button id="turtle2">Turtle2</button><button id="turtle3">Turtle3</button><button id="turtle4">Turtle4</button><button id="turtle5">Turtle5</button><button id="turtle6">Turtle6</button><button id="turtle7">Turtle7</button><button id="turtle8">Turtle8</button><button id="konva1">Konva1</button><button id="bunny">Bunny</button><button id="ball">Ball</button><button id="spur">Spur</button><button id="ycqsort">Ycqsort</button><button id="clear">Clear</button></p>
+<h4></h4><br />基本操作 << <a href='基本操作.html'>Previous</a> </section></div></body></html>
