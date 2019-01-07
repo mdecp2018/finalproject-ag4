@@ -76,4 +76,20 @@ $(function(){
 </ul>
 </confmenu></header>
 <div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='Introduction.html'>Introduction</a><li><a href='Attend.html'>Attend</a><li><a href='Pyslvs.html'>Pyslvs</a><ul><li><a href='基本操作.html'>基本操作</a></li></ul><li><a href='Python 語法.html'>Python 語法</a><li><a href='cmsimfly.html'>cmsimfly</a><ul><li><a href='reveal.html'>reveal</a></li></ul><li><a href='Experience.html'>Experience</a><ul><li><a href='week10.html'>week10</a><li><a href='week11.html'>week11</a><li><a href='week12.html'>week12</a><li><a href='week13.html'>week13</a><li><a href='week14.html'>week14</a><li><a href='week15.html'>week15</a><li><a href='week16.html'>week16</a><li><a href='week17.html'>week17</a><li><a href='week18.html'>week18</a></li></ul></nav><section>week16 << <a href='week16.html'>Previous</a> <a href='week18.html'>Next</a> >> week18<br /><h1>week17</h1>
-<br />week16 << <a href='week16.html'>Previous</a> <a href='week18.html'>Next</a> >> week18</section></div></body></html>
+<p>這禮拜使用pythone語法製作出德國國旗</p>
+<p><img alt="" height="204" src="./../images/1546867201297.jpg" width="299"/></p>
+<p>&lt;!-- flag02 start --&gt;<br/>&lt;p&gt;<br/>&lt;script type="text/python3"&gt;<br/>from browser import document as doc<br/>import beditor<br/>flag02 = beditor.editor("""# flag02</p>
+<table border="1" style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<h6># flag02<br/># 畫中德國國旗<br/># 導入 doc<br/>from browser import document as doc<br/>from browser import html<br/>import math<br/>canvas = html.CANVAS(width = 300, height = 200)<br/>canvas.style = {"width": "100%"}<br/>canvas.id = "taiwan_flag"<br/>brython_div = doc["brython_div"]<br/>brython_div &lt;= canvas</h6>
+<h6>準備繪圖畫布<br/>canvas = doc["flag"]<br/>ctx = canvas.getContext("2d")<br/># 進行座標轉換, x 軸不變, y 軸反向且移動 canvas.height 單位光點<br/># ctx.setTransform(1, 0, 0, -1, 0, canvas.height)<br/># 以下採用 canvas 原始座標繪圖<br/>flag_w = canvas.width<br/>flag_h = canvas.height<br/>circle_x = flag_w/4<br/>circle_y = flag_h/4<br/># 先畫滿地紅<br/>ctx.fillStyle='rgb(255, 0, 0)'<br/>ctx.fillRect(0,0,flag_w,flag_h)<br/># 先畫滿地黑<br/>ctx.fillStyle='rgb(0, 0, 0)'<br/>ctx.fillRect(0,0,flag_w,flag_h/3)<br/># 先畫滿地黃<br/>ctx.fillStyle='rgb(255, 255, 0)'<br/>ctx.fillRect(0,135,flag_w,flag_h/3)</h6>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>""", "kw_editor", "kw_console", "kw__container", "kw_py_src")<br/># id 為 "flag02" 的按鈕點按時, 執行 Ball 物件中的 prog 方法<br/>doc["flag02"].bind('click', flag02.prog)</p>
+<p>這是增加按鈕的指令:</p>
+<p>&lt;p&gt;&lt;button id="flag02"&gt;flag02&lt;/button&gt;&lt;/p&gt;</p><br />week16 << <a href='week16.html'>Previous</a> <a href='week18.html'>Next</a> >> week18</section></div></body></html>
