@@ -326,7 +326,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 </t>
 <t tx="leo.20190106154649.2"># 模擬操作
-* Pyslvs 的模擬操作主要牽涉 Mechanism 與 Inputs 分頁, Mechanism 分頁用於定義機構各節點與連桿, 而 Inputs 分頁則可用來定義主動旋轉軸, 並利用自動或手動模式進行合理平面機構的運動模擬.</t>
+* Pyslvs 的模擬操作主要牽涉 Mechanism 與 Inputs 分頁, Mechanism 分頁用於定義機構各節點與連桿, 而 Inputs 分頁則可用來定義主動旋轉軸, 並利用自動或手動模式進行合理平面機構的運動模擬.
+
+</t>
 <t tx="leo.20190110204150.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -348,7 +350,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20190110205138.2">&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/sam_sixbar.png"&gt;&lt;img src="http://www.pyslvs.com/images/sam_sixbar.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+<t tx="leo.20190110205138.2">&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/sam_sixbar.png"&gt;&lt;img src="http://www.pyslvs.com/images/sam_sixbar.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;
+
+</t>
 <t tx="leo.20190110214340.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -358,7 +362,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20190110214340.2"> &lt;p&gt;&lt;a href="http://www.pyslvs.com/images/pyslvs-18.7.0-screenshot.png"&gt;&lt;img src="http://www.pyslvs.com/images/pyslvs-18.7.0-screenshot.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+<t tx="leo.20190110214340.2"> &lt;p&gt;&lt;a href="http://www.pyslvs.com/images/pyslvs-18.7.0-screenshot.png"&gt;&lt;img src="http://www.pyslvs.com/images/pyslvs-18.7.0-screenshot.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;
+
+</t>
 <t tx="leo.20190110214446.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -370,7 +376,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 </t>
 <t tx="leo.20190110214446.2">Pyslvs 主畫面的上方為功能表列 (Menu bar), 右側為畫布 (Canvas), 左方則有各式功能的分頁欄 (Tab widgets).
 
-功能表列涵蓋大部分的功能, 其中部分有關各項目的細部操作, 則必須在對應的分頁欄中選取或設定. </t>
+功能表列涵蓋大部分的功能, 其中部分有關各項目的細部操作, 則必須在對應的分頁欄中選取或設定. 
+
+</t>
 <t tx="leo.20190110214831.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -395,7 +403,9 @@ Pyslvs 的 Inputs 子頁面用於宣告機構的主動軸, 並進行運動模擬
 						
 </t>
 <t tx="leo.20190110215113.2"># Synthesis 分頁
-* Pyslvs 的 Synthesis 子頁面用於進行平面機構的結構合成與尺寸合成.</t>
+* Pyslvs 的 Synthesis 子頁面用於進行平面機構的結構合成與尺寸合成.
+
+</t>
 <t tx="leo.20190110215325.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -406,7 +416,9 @@ Pyslvs 的 Inputs 子頁面用於宣告機構的主動軸, 並進行運動模擬
 						
 </t>
 <t tx="leo.20190110215325.2"># 功能表列 (Menu bar)
-* 功能表列中根據不同的功能分類如下:</t>
+* 功能表列中根據不同的功能分類如下:
+
+</t>
 <t tx="leo.20190110215739.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -505,7 +517,9 @@ Shift + F1 - Toggle 全螢幕
 						
 </t>
 <t tx="leo.20190110221120.2"># 八連桿機構 -3
-&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/eightbar3.png"&gt;&lt;img src="http://www.pyslvs.com/images/eightbar3.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/eightbar3.png"&gt;&lt;img src="http://www.pyslvs.com/images/eightbar3.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;
+
+</t>
 <t tx="leo.20190110221210.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -530,7 +544,9 @@ Shift + F1 - Toggle 全螢幕
 						
 </t>
 <t tx="leo.20190110221646.2"># 十連桿機構
-&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/tenbar_linkage.png"&gt;&lt;img src="http://www.pyslvs.com/images/tenbar_linkage.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/tenbar_linkage.png"&gt;&lt;img src="http://www.pyslvs.com/images/tenbar_linkage.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;
+
+</t>
 <t tx="leo.20190110221757.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -541,7 +557,9 @@ Shift + F1 - Toggle 全螢幕
 						
 </t>
 <t tx="leo.20190110221757.2">## 健步機
-&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/sixbar_foot_exercise_machine.png"&gt;&lt;img src="http://www.pyslvs.com/images/sixbar_foot_exercise_machine.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/sixbar_foot_exercise_machine.png"&gt;&lt;img src="http://www.pyslvs.com/images/sixbar_foot_exercise_machine.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;
+
+</t>
 <t tx="leo.20190110221759.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -552,7 +570,9 @@ Shift + F1 - Toggle 全螢幕
 						
 </t>
 <t tx="leo.20190110221759.2"># 汽車雨刷
-&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/windshield_design1.png"&gt;&lt;img src="http://www.pyslvs.com/images/windshield_design1.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/windshield_design1.png"&gt;&lt;img src="http://www.pyslvs.com/images/windshield_design1.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;
+
+</t>
 <t tx="leo.20190110221802.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -563,7 +583,9 @@ Shift + F1 - Toggle 全螢幕
 						
 </t>
 <t tx="leo.20190110221802.2"># 汽車引擎蓋
-&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/automobile_hood1.png"&gt;&lt;img src="http://www.pyslvs.com/images/automobile_hood1.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/automobile_hood1.png"&gt;&lt;img src="http://www.pyslvs.com/images/automobile_hood1.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;
+
+</t>
 <t tx="leo.20190110222149.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -573,6 +595,8 @@ Shift + F1 - Toggle 全螢幕
 
 						
 </t>
-<t tx="leo.20190110222149.2"># 產品設計範例</t>
+<t tx="leo.20190110222149.2"># 產品設計範例
+
+</t>
 </tnodes>
 </leo_file>
