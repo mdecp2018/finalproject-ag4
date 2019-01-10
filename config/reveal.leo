@@ -27,16 +27,71 @@
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20190106143015.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190106143015.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
+<v t="leo.20190106154649.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190106154649.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
-<v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
+<v t="leo.20190110214340.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110214340.2"><vh>投影片快捷鍵</vh></v>
 </v>
+<v t="leo.20190110214446.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110214446.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110205138.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110205138.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110204150.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110204150.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110214831.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110214831.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110215113.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110215113.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110215325.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110215325.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110215739.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110215739.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110220328.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110220328.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110221210.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110221210.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110220859.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110220859.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110221000.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110221000.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110221113.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110221113.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110221117.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110221117.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110221120.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110221120.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110221646.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110221646.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110222149.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110222149.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110221757.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110221757.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110221759.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110221759.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20190110221802.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190110221802.2"><vh>投影片快捷鍵</vh></v>
 </v>
 </v>
 </v>
@@ -124,9 +179,9 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
+<t tx="leo.20180827201621.10">## 2018  期末報告第四投影片片
 
-### 虎科大機械設計工程系
+### 鬼島前2%優質學生
 
 &lt;small&gt;
 Created by [KMOLab](http://lab.kmol.info/)
@@ -145,92 +200,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180827201621.12"># 投影片快捷鍵
+<t tx="leo.20180827201621.12"># PYSLVS
+* Pyslvs是一套利用 Pyslvs 3 與 PyQt5建立的平面機構模擬與合成系統
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20180827201621.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20180827201621.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20180827201621.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180827201621.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
@@ -246,7 +218,7 @@ make.start()
 <t tx="leo.20180827201621.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-2018 Fall 分組網際簡報
+2018 第四組期末投影片片
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -326,5 +298,281 @@ make.start()
 
 						
 </t>
+<t tx="leo.20190106143015.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106143015.2"># 主要核心:
+* Python-Solvespace 幾何約束求解程式庫
+* tinycadlib 三角幾何函式程式庫
+* ADesign 演算程式庫
+* bgfs 幾何約束求解程式庫
+* topologic 類型合成程式庫
+* number 數目合成程式庫等
+
+</t>
+<t tx="leo.20190106154649.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106154649.2"># 模擬操作
+* Pyslvs 的模擬操作主要牽涉 Mechanism 與 Inputs 分頁, Mechanism 分頁用於定義機構各節點與連桿, 而 Inputs 分頁則可用來定義主動旋轉軸, 並利用自動或手動模式進行合理平面機構的運動模擬.</t>
+<t tx="leo.20190110204150.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110204150.2">&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/sam_sixbar-18.7.png"&gt;&lt;img src="http://www.pyslvs.com/images/sam_sixbar-18.7.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;
+
+</t>
+<t tx="leo.20190110205138.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110205138.2">&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/sam_sixbar.png"&gt;&lt;img src="http://www.pyslvs.com/images/sam_sixbar.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+<t tx="leo.20190110214340.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110214340.2"> &lt;p&gt;&lt;a href="http://www.pyslvs.com/images/pyslvs-18.7.0-screenshot.png"&gt;&lt;img src="http://www.pyslvs.com/images/pyslvs-18.7.0-screenshot.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+<t tx="leo.20190110214446.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110214446.2">Pyslvs 主畫面的上方為功能表列 (Menu bar), 右側為畫布 (Canvas), 左方則有各式功能的分頁欄 (Tab widgets).
+
+功能表列涵蓋大部分的功能, 其中部分有關各項目的細部操作, 則必須在對應的分頁欄中選取或設定. </t>
+<t tx="leo.20190110214831.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110214831.2"># Mechanism 分頁
+* Pyslvs 左側中的 Mechanism 子頁面, 主要用於輸入機構關鍵點與運動連桿, 使用時以滑鼠點選 Mechanism 頁面後, 可在右方工作區, 以滑鼠輸入機構關鍵點與運動連桿.
+# Inputs 分頁
+Pyslvs 的 Inputs 子頁面用於宣告機構的主動軸, 並進行運動模擬.
+</t>
+<t tx="leo.20190110215113.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110215113.2"># Synthesis 分頁
+* Pyslvs 的 Synthesis 子頁面用於進行平面機構的結構合成與尺寸合成.</t>
+<t tx="leo.20190110215325.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110215325.2"># 功能表列 (Menu bar)
+* 功能表列中根據不同的功能分類如下:</t>
+<t tx="leo.20190110215739.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110215739.2">##檔案 (File)
+建立新的工作簿、開啟既有的工作簿、參考範例, 以及不同檔案格式的匯入與匯出功能.
+
+##編輯 (Edit)
+復原與重做功能. 
+
+##選項 (Options)
+檢視方式調整以及工作簿相關資訊.
+
+##說明 (Help)
+與 Pyslvs 相關網站與套件資訊.
+
+##快捷鍵
+F1 - 有關 Pyslvs
+Shift + F1 - Toggle 全螢幕
+</t>
+<t tx="leo.20190110220328.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110220328.2"># 建立連桿
+* 1.利用滑鼠在右側畫布區, 按住滑鼠右鍵輸入兩個固定點與一個可運動點.
+* 2.將其中一個固定點轉為滑塊, 即將 point2 之類型 (type) 由 pin 轉為 pin in slot, 採內建水平滑動面, 或更改滑動面的對應角度.
+
+在 Mechanism 完成機構定義後, 轉到 Inputs 子頁面, 定義 Driver point 後進行曲柄滑塊的運動模擬.
+</t>
+<t tx="leo.20190110220859.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110220859.2"># 範例影片 1
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/aBEfsdOycC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20190110221000.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110221000.2"># 範例影片 2
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/1BcjhYgvQtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20190110221113.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110221113.2"># 八連桿機構 -1
+&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/eightbar1.png"&gt;&lt;img src="http://www.pyslvs.com/images/eightbar1.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;
+</t>
+<t tx="leo.20190110221117.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110221117.2"># 八連桿機構 -2
+&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/eightbar2.png"&gt;&lt;img src="http://www.pyslvs.com/images/eightbar2.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;
+</t>
+<t tx="leo.20190110221120.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110221120.2"># 八連桿機構 -3
+&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/eightbar3.png"&gt;&lt;img src="http://www.pyslvs.com/images/eightbar3.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+<t tx="leo.20190110221210.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110221210.2"># 四連桿
+在 Mechanism 子頁面定義兩個固定點與兩個移動點後, 建立三根可運動連桿.
+
+接著進入 Inputs 頁面, 定義 driver points 後進行基本運動模擬.
+</t>
+<t tx="leo.20190110221646.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110221646.2"># 十連桿機構
+&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/tenbar_linkage.png"&gt;&lt;img src="http://www.pyslvs.com/images/tenbar_linkage.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+<t tx="leo.20190110221757.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110221757.2">## 健步機
+&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/sixbar_foot_exercise_machine.png"&gt;&lt;img src="http://www.pyslvs.com/images/sixbar_foot_exercise_machine.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+<t tx="leo.20190110221759.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110221759.2"># 汽車雨刷
+&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/windshield_design1.png"&gt;&lt;img src="http://www.pyslvs.com/images/windshield_design1.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+<t tx="leo.20190110221802.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110221802.2"># 汽車引擎蓋
+&lt;p&gt;&lt;a href="http://www.pyslvs.com/images/automobile_hood1.png"&gt;&lt;img src="http://www.pyslvs.com/images/automobile_hood1.png"title="source:imgur.com"/&gt;&lt;/a&gt;&lt;/p&gt;</t>
+<t tx="leo.20190110222149.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110222149.2"># 產品設計範例</t>
 </tnodes>
 </leo_file>
