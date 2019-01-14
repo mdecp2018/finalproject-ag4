@@ -2,7 +2,7 @@
 <p><a href="https://mdecp2018.github.io/site-s40723125/member/index.html">簡易網站</a></p>
 <p>組長:張詠全40723125 (自評成績:82)( <a href="https://mdecp2018.github.io/site-s40723125" title="40723125">個人</a>  )  ( <a href="https://youtu.be/FE-e4dkbLDU" title="40723125">影片</a>)</p>
 <p> 組員:徐焌凱40723123(自評成績:70 )(<a href="https://mdecp2018.github.io/site-s40723123">個人)</a>     ( <a href="https://www.youtube.com/watch?v=rEfT1N5qlPw">影片</a>)</p>
-<p>組員:李其叡40723111 (自評成績:70) (<a href="https://mdecp2018.github.io/site-s40723111">個人)</a>     </p>
+<p>組員:李其叡40723111 (自評成績:70) (<a href="https://mdecp2018.github.io/site-s40723111">個人)</a>     (<a href="https://www.youtube.com/watch?v=oI8B1G_32jY&amp;feature=youtu.be">影片</a>)</p>
 <p>組員:李正揚40723110 (自評成績:60)( <a href="https://mdecp2018.github.io/site-s40723110">個人)</a>     (<a href="https://www.youtube.com/watch?v=pfqBioPNlwc&amp;feature=youtu.be">影片</a>)</p>
 <p>組員:王頊鑌40723108 (自評成績:70) (<a href="https://mdecp2018.github.io/site-s40723108">個人)</a>    (<a href="https://www.youtube.com/watch?v=Ul0mExRiBbE&amp;feature=youtu.be">影片</a>)</p>
 <p>組員:陳漢宇40723134      (自評成績:60) (<a href="https://mdecp2018.github.io/site-s40723134">個人)</a>    (<a href="https://www.youtube.com/watch?v=_6WJE8iJuwQ&amp;feature=youtu.be">影片</a>)</p>
@@ -1922,11 +1922,45 @@ doc["flag02"].bind('click', flag02.prog)
 </script>
 </p>
 <!-- flag02 ends -->
+<p></p>
+<!--  BMI start -->
+<p>
+<script type="text/python3">
+from browser import document as doc
+import beditor
+BMI = beditor.editor("""# BMI
+
+h = input("身高cm")
+print ("身高  ", h)
+w = input("體重kg")
+print ("體重 " , w)
+BMI = float(w)/(float(h)/100)**2
+if (BMI < 18.5):
+        print("BMI值為%.2f，屬體重過輕" % BMI)
+elif (18.6 <= BMI and BMI < 24):
+        print("BMI值為%.2f，屬正常範圍" % BMI)
+elif (24 <= BMI and BMI < 27):
+        print("BMI值為%.2f，屬稍重" % BMI)
+elif (27 <= BMI and BMI < 30):
+        print("BMI值為%.2f，屬輕度肥胖" % BMI)
+elif (30 <= BMI and BMI < 35):
+        print("BMI值為%.2f，屬中度肥胖" % BMI)
+else:
+        print("BMI值為%.2f，屬重度肥胖" % BMI)
+
+
+
+""", "kw_editor", "kw_console", "kw__container", "kw_py_src")
+# id 為 "BMI" 的按鈕點按時, 執行 Ball 物件中的 prog 方法
+doc["BMI"].bind('click', BMI.prog)
+</script>
+</p>
+<!-- BMI ends -->
 <p><button id="keyword">Keyword</button><button id="ex1">Ex1</button><button id="ex2">Ex2</button><button id="ex3">Ex3</button><button id="ex4">Ex4</button><button id="forloop">Ex5</button><button id="guess">Guess</button><button id="autoguess">Autoguess</button><button id="lottery">Lottery</button><button id="temp">Temp</button><button id="draw">Draw</button><button id="flag">Flag</button> <button id="bezier">Bezier</button><button id="turtle1">Turtle1</button><button id="turtle2">Turtle2</button><button id="turtle3">Turtle3</button><button id="turtle4">Turtle4</button><button id="turtle5">Turtle5</button><button id="turtle6">Turtle6</button><button id="turtle7">Turtle7</button><button id="turtle8">Turtle8</button><button id="konva1">Konva1</button><button id="bunny">Bunny</button><button id="ball">Ball</button><button id="spur">Spur</button><button id="ycqsort">Ycqsort</button><button id="clear">Clear</button></p>
 <p>作品</p>
 <p><button id="flag02">flag02</button></p>
-<h4></h4>
-<h1>cmsimfly</h1>
+<p><button id="BMI">BMI</button></p>
+<h4></h4><h1>cmsimfly</h1>
 <h2>reveal</h2>
 <p>Test 1</p>
 <p>簡報往右新增一行</p>
